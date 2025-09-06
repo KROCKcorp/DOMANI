@@ -20,15 +20,8 @@ export default function Hero() {
   })
 
   return (
-    <div className="flex items-center justify-center w-dvw h-dvh overflow-hidden">
+    <div className="flex items-center justify-center w-dvw h-dvh">
       <div className="w-[98%] h-[99%] sm:w-[97%] sm:h-[95%] bg-[url(/hero.png)] bg-center bg-cover rounded-4xl flex flex-col">
-        <div className="flex justify-between items-center pt-4 px-8">
-          <div className="flex justify-between items-center">
-            <img src="DOMANI-LOGO.webp" alt="DOMANI" className="size-10 sm:size-15" />
-            <span className="text-white text-3xl font-bold">OMANI</span>
-          </div>
-          <button className="styled-btn">Book Now</button>
-        </div>
         <div className="h-full flex justify-center items-center">
           <main className="flex flex-col justify-center items-center text-center w-3/4 p-4 rounded-4xl">
             <h1
@@ -43,6 +36,7 @@ export default function Hero() {
             >
               We handle all your smart home needs from lighting to security, control everything with a tap.
             </p>
+            <button className="styled-btn text-xl my-6 px-6">Book Now</button>
           </main>
         </div>
       </div>
